@@ -1,0 +1,45 @@
+body{
+    font-family: consolas;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 3rem;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.521);
+
+}
+p{
+    font-size: 1.4rem;
+    font-weight: 1000;
+ 
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+    padding: 5%;
+    transition: 0.25s ease;
+}
+.input{
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.521);
+}
+.ColorPicker{
+    margin-top: 20px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    padding: none;
+    cursor:pointer;
+    border: none;
+}
